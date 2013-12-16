@@ -3,9 +3,8 @@ modernizr.mobile
 
 Modernizr mobile test based in javascript code from http://detectmobilebrowsers.com/
 
-Usage
+Usage:
 
-Modernizr.mobile;
+    if (Modernizr.mobile) { ... };
 
-false is desktop
-true is mobile
+Where `true` is a mobile device.
